@@ -253,7 +253,7 @@ toml = [
 [[package]]
 name = "csv-importer"
 version = "0.0.1"
-source = { virtual = "." }
+source = { editable = "." }
 dependencies = [
     { name = "databpy" },
     { name = "polars" },
